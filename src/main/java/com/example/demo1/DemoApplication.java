@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 // Feature 1
+// Feature 2
 @SpringBootApplication
 public class DemoApplication {
 
