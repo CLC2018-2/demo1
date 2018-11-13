@@ -32,3 +32,13 @@ readinessProbe:
   successThreshold: 1
   timeoutSeconds: 1
 terminationGracePeriodSeconds: 10
+mariadb:
+  enabled: true
+  replication:
+    enabled: false
+  rootUser:
+    password: p4root!
+  db:
+    user: wisdom
+    password: p4wisdom!
+    name: wisdom
